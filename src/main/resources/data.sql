@@ -8,6 +8,9 @@ INSERT INTO users (id, username, password, first_name, last_name, email, phone, 
 VALUES ('e18c8bcc-935d-444d-a194-3a32a3b35a49', 'admin', '$2a$10$YFhTnHpCL.Z0Ev0j1CbEUub7sIWmN7Qd5RmnU8g5ekuoapV7Zdx32',
         'Admin', 'User', 'admin@localhost.com', '0123456789', '', '', '', '', 'United Kingdom', CURDATE(), 'Male', 1);
 INSERT INTO users (id, username, password, first_name, last_name, email, phone, address, city, state, zip, country, date_created, gender, enabled)
+VALUES ('e18c8bcc-935d-444d-a194-3a32a3b35a43', 'admin2', '$2a$10$YFhTnHpCL.Z0Ev0j1CbEUub7sIWmN7Qd5RmnU8g5ekuoapV7Zdx32',
+        'Admin2', 'User', 'admin2@localhost.com', '0123456789', '', '', '', '', 'United Kingdom', CURDATE(), 'Male', 1);
+INSERT INTO users (id, username, password, first_name, last_name, email, phone, address, city, state, zip, country, date_created, gender, enabled)
 VALUES ('32e7db01-86bc-4687-9ecb-d79b265ac14f', 'user1', '$2a$10$YFhTnHpCL.Z0Ev0j1CbEUub7sIWmN7Qd5RmnU8g5ekuoapV7Zdx32',
         'Sam', 'Shopper', 'user1@localhost.com', '0123456789', '1 Somewhere Street', 'London', 'Greater London', 'SW1', 'United Kingdom', CURDATE(), 'Female', 1);
 INSERT INTO users (id, username, password, first_name, last_name, email, phone, address, city, state, zip, country, date_created, gender, enabled)
